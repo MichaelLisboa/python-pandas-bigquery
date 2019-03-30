@@ -41,18 +41,18 @@ Google has a really really good walkthrough of [setting up the environment here.
 
 Once you have the API setup in your project, an option for BigQuery should be present in your console menu. There you'll see a screen like this:
 
-![gbq-step-1](//images.ctfassets.net/1nc0h0ipk4bl/1Lq8v6SU2cElAFp8KD8Aoo/356cf0a9e7bc4516a69e4469aae19ecd/gbq-step-1.png)
+<img src="https://raw.githubusercontent.com/MichaelLisboa/python-pandas-bigquery/master/static/images/gbq-step-1.png" />
 
 ##### Create a DataSet
 Clicking on the "Create Dataset" button will display this screen:
 
-![gbq-step-2](//images.ctfassets.net/1nc0h0ipk4bl/cTzGLGf0wk0RV7QAIa5J1/fbf739ee665c0c3fc066bd22fbf533aa/gbq-step-2.png)
+<img src="https://raw.githubusercontent.com/MichaelLisboa/python-pandas-bigquery/master/static/images/gbq-step-2.png" />
 
 Name your DataSet, in this case I'm calling it `MyDataId`, and choose the zone closest to you. For me, I've selected Singapore. Go ahead and click the Create DataSet button to get your first DataSet set up in BigQuery.
 
 Now that we have a DataSet, we need to add tables to it. To keep things simple, we're going to add only one table. Select your `MyDataId`, and click Create Table to add a new empty table and call it `MyDataTable`. Don't worry about other settings at the moment, an empty table that's editable as text works for our case.
 
-![gbq-step-5](//images.ctfassets.net/1nc0h0ipk4bl/IZGItB3zAIT8qPBVj0Uz0/a46b41bb175fd7fb40d3f3894320f8a2/gbq-step-5.png)
+<img src="https://raw.githubusercontent.com/MichaelLisboa/python-pandas-bigquery/master/static/images/gbq-step-5.png" />
 
 Okay, we now have a DataSet with an empty table set up. We'll be able to reference our table in Python using `MyDataId.MyDataTable`.
 
