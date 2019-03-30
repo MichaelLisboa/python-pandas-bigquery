@@ -1,0 +1,7 @@
+cron:
+- description: "Push GBQ CRON"
+  url: /push-gbq/
+  schedule: every 48 hours
+  retry_parameters:
+    min_backoff_seconds: 120
+    max_doublings: 5
