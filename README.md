@@ -2,21 +2,6 @@
 
 Influen$e relies heavily on data generated through multiple micro-services and API calls, all in real time. Early on, I wanted to set up the platform to use Google BigQuery for data warehousing, allowing us to work with real-time data in smaller chunks.
 
-<section class="uk-section uk-section-small">
-	<div class="content-box uk-container uk-container-small uk-padding-small uk-width-1-2@s">
-		<h4 class="uk-text-center">Shortcut this</h4>
-		<h5 class="uk-text-center">
-            If you know what you're doing, you can get the code from GitHub.
-        </h5>
-		<div class="uk-text-center">
-			<a class="uk-button uk-button-large uk-button-secondary"
-                href="https://github.com/MichaelLisboa/python-pandas-bigquery">
-				Get it on GitHub
-			</a>
-		</div>
-	</div>
-</section>
-
 #### Trying to make a complicated set up as easy as possible to implement.
 When I first started researching how to do this, it all seemed really complicated. I was scouring the web and reading articles, pulling little bits of useful information from many different sources.
 
